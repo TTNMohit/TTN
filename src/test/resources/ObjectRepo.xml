@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TTN>
+<VR>
+<keyword id="clickGmailLogin">
+<identifier>xpath</identifier>
+<value>.//*[contains(@class,'sign-in')]</value>
+</keyword>
+<keyword id="username">
+<identifier>xpath</identifier>
+<value>.//*[@id='identifierId']</value>
+</keyword>
+<keyword id="next">
+<identifier>xpath</identifier>
+<value>.//*[@id='identifierNext']</value>
+</keyword>
+<keyword id="pass">
+<identifier>xpath</identifier>
+<value>.//*[@id='password']/div[1]/div/div[1]/input</value>
+</keyword>
+<keyword id="passnext">
+<identifier>xpath</identifier>
+<value>.//*[@id='passwordNext']/content</value>
+</keyword>
+</VR>
+</TTN>
